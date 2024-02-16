@@ -1,0 +1,32 @@
+.matrixBlock {
+  margin-top: 100px;
+  margin-inline: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.matrixBlock ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+.matrixBlock ul li {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.matrixBlock ul .activeLetter {
+  color: red;
+  font-weight: 900;
+  font-size: 24px;
+}
